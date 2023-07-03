@@ -1,0 +1,283 @@
+
+
+.ple_calc_wrapper{
+    background-image: linear-gradient(to bottom left, #e4dfec, white, white);
+    background: #10162C;
+    padding: 80px 0 80px;
+}
+.ple_calc_head{
+    margin-bottom: 40px;
+    color: #fff;
+}
+.ple_calc_head h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.ple_calc_head h6{
+    font-size: 18px;
+    max-width: 430px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.ple_calc_wrapper .sub-container {
+    /* display: flex; */
+    /* width: 100%; */
+    /* gap: 50px; */
+    /* height: max-content; */
+    color: #fff;
+}
+.ple_calc_wrapper .ple_calc_div{
+    background: #1A2C34;
+    padding: 8% 10% 8%;
+    max-width: 550px;
+}
+.ple_calc_wrapper .ple_calc_div .detail_wrapper{
+    margin-bottom: 42px;
+}
+.ple_calc_wrapper .ple_calc_div .detail{
+    font-size: 17px;
+}
+.ple_calc_wrapper .ple_calc_div .calc_rupee{
+    color: #5AB56B;
+    margin-left: 4px;
+}
+.ple_calc_wrapper .ple_calc_div #price .calc_rupee {
+}
+.ple_calc_wrapper .ple_calc_div p{
+    color: #fff;
+    margin-bottom: 1px;
+    font-size: 16px;
+}
+.ple_calc_wrapper .ple_calc_div 
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.ple_calc_wrapper .ple_calc_div .calc_cta{
+
+text-align: center;
+}
+.ple_calc_wrapper .ple_calc_div .month_pay{
+    margin-bottom: 50px;
+}
+.ple_calc_wrapper .ple_calc_div #price-container {
+    color: #5AB56B;
+    margin-bottom: 0;
+}
+.header button {
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+    color: #5AB56B;
+}
+
+.header button:hover {
+    cursor: pointer;
+}
+
+.view,
+.breakup {
+    width: 50%;
+}
+
+.details input {
+    width: 100%;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+.ple_chart_div{
+    text-align: center;
+    padding: 0px 2% 0 12%;
+}
+.ple_chart_div canvas{
+    /* max-width: 375px; */
+    /* max-height: 375px; */
+    color: #fff;
+    margin: auto;
+    margin-bottom: 90px;
+}
+.ple_chart_div .calc_rupee{
+    color: #5AB56B;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+/*----- Styling the sliders ----*/
+input[type="range"] {
+    -webkit-appearance: none;
+    margin: 14px 0;
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: #5AB56B;
+    border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    box-shadow: 2px 2px 5px #b3b3b3, -1px -1px 3px grey;
+    border: 5px solid #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #5AB56B;
+    background: #434343;
+    cursor: pointer;
+    margin-top: -6px;
+    -webkit-appearance: none;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+    background: #b3b3b3;
+      background: #5AB56B;  
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+    background: #b3b3b3;
+}
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: #5AB56B;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+    border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-thumb {
+    box-shadow: 2px 2px 5px #b3b3b3, -1px -1px 3px grey;
+    border: 5px solid #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #5AB56B;
+    cursor: pointer;
+    margin-top: -6px;
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: #5AB56B;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+    border-radius: 10px;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background: #5AB56B;
+    border-radius: 5px;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: #5AB56B;
+    border-radius: 5px;
+}
+
+input[type="range"]::-ms-thumb {
+    box-shadow: 2px 2px 5px #b3b3b3, -1px -1px 3px grey;
+    border: 5px solid #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #5AB56B;
+    cursor: pointer;
+    margin-top: -6px;
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+    background: #5AB56B;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+    background: #5AB56B;
+}
+
+/*-------------------------------------*/
+#price {
+    color: #fff;
+    font-size: 26px;
+}
+
+.loan-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: #fff;
+    margin-top: 0px;
+    font-size: 18px;
+}
+.loan-details .chart-details{
+    text-align: left;
+}
+.loan-details .chart-details-head{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+
+#price-container::before {
+    content: "Monthly Payable:";
+    font-size: 12px;
+    display: block;
+}
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+.ple_calc_wrapper .ple_calc_div{max-width: 100%;margin-bottom: 45px;}
+.ple_chart_div canvas{
+    max-width:100%;
+    max-height: initial;
+    margin-bottom: 40px;
+}
+.ple_chart_div{
+    padding: 0;
+}
+}
+@media screen and (max-width: 767px) {
+    .ple_calc_head h2{
+    font-size: 24px;
+}
+    .ple_calc_head h6{
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 480px) {
+    .ple_calc_head h2{}
+    .ple_calc_head h6{}
+    .loan-details{
+        display: block;        
+    }
+    .loan-details .chart-details{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
