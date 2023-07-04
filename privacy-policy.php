@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<div class="cred_page_wrapper">
+<div class="cred_page_wrapper">    
         <div class="container">
             <div class="cred_page_content">
                 <h1 class="wp-block-heading">
