@@ -4,7 +4,7 @@
             <div class="cred_page_content">
                 <h1 class="wp-block-heading">
                     <strong>PRIVACY POLICY</strong>
-                </h1>
+                </h1>     
 
                 <p>
                     This Privacy Policy forms a binding contract between you and Zappian Fintech Private Limited including its

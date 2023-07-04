@@ -9,7 +9,7 @@
  *
  * @package credmudra_theme
  */
-session_start();
+session_start();   
 if (isset($_REQUEST['utm_source'])) {
     $_SESSION["utm_source"] = $_REQUEST['utm_source'];
 }
